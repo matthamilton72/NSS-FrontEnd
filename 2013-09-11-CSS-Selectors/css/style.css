@@ -1,0 +1,91 @@
+/* this is a single line comment */
+/* this
+  is
+  a
+  multi-line
+  comment
+*/
+
+/*web font*/
+
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+h1 {
+  font-family: "Aldrich", sans-serif;
+}
+
+/* selecting by an id */
+#div1
+{
+  color: #ff0000;
+}
+
+/*selecting by a class*/
+.divs
+{
+  background-color: yellow;
+}
+
+/*selecting by tag*/
+p{
+  color: green;
+}
+
+a
+{
+  background-color: red;
+}
+
+/*selecting based on attribute*/
+a[href="http://google.com"]
+{
+  background-color: green;
+}
+
+/*End of string matches*/
+a[href$="cnn.com"]
+{
+  background-color: orange;
+}
+
+/*select by some value within quotes of element*/
+a[href*="yahoo"]
+{
+  background-color: blue;
+}
+
+/*direct child*/
+
+ul > li
+{
+  font-size: 25px;
+}
+
+/*nth child pseudo-selector with direct even child every 2
+ even = 2n, odd = 2n+1*/
+
+ul > li:nth-child(3) > span:nth-child(2n+1)
+{
+  font-size: 35px;
+}
+
+/*dynamic links*/
+a:hover
+{
+  background-color: white;
+}
+
+a:visited
+{
+  background-color: purple;
+}
+
+#span2
+{
+  background-color: green;
+}
+
+span
+{
+  background-color: red;
+}

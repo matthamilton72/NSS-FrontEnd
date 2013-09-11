@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic);
+
+body {
+font-family: 'Ropa Sans', sans-serif;
+background-color: rgba(0,200,150,0.5);
+}
+
+#logoimg
+{
+  float: left;
+  width: 100px;
+}
+
+#logotxt
+{
+  float: left;
+  width: 400px;
+  font-family: "Gudea", sans-serif;
+  font-size: 45px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  font-weight: 600;
+
+}
+
+.clear
+{
+  clear: both;
+}
+
+h2
+{
+  font-size: 25px;
+}
+
+ul {
+  list-style: inside disc;
+  padding-left: 20px;
+}
+
+p
+{
+  font-size: 15px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+p:nth-of-type(2n)
+{
+  font-style: italic;
+  color: #8243D6;
+}
+
+a:hover
+{
+  color: purple;
+  font-style: italic;
+}
