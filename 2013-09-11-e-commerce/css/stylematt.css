@@ -14,12 +14,14 @@ background-color: #222;
 color: white;
 font-size: 20px;
 font-weight: 400;
+letter-spacing: 1px;
 }
 
 p {
   padding-right: 20px;
   line-height: 25px;
   padding: 20px;
+  letter-spacing: 1px;
 }
 /*End Matt's First Chunk*/
 
@@ -54,6 +56,7 @@ header > #logo{
   display: table;
   width: 100%;
   padding: 10px;
+  padding-left: 20px;
   margin-bottom: 15px;
   background-color: rgba(224, 13, 28, 1);
 }
@@ -84,7 +87,6 @@ font-weight: 700;
 
 /*Changed Font Family*/
 address {
-  font-family: 'Port Lligat Sans', sans-serif;
   font-size: 15px;
   padding: 20px;
   font-weight: 600;
@@ -104,10 +106,12 @@ h2{
 
 #mainproduct div
 {
-  padding-right: 40px;
-  padding-left: 0;
+  padding: 20px;
   float: left;
   max-width: 400px;
+  margin-right: 20px;
+  background-color: #808080;
+
 }
 
 footer {
@@ -120,7 +124,7 @@ footer a
   color: white;
 }
 
-table {
+#cart_table {
   margin: 20px;
   width: auto;
 }
@@ -128,11 +132,11 @@ table {
 /*Table for shopping cart page*/
 td {
   padding: 10px;
-  border: 3px black outset;
+  border: 5px black groove;
   text-align: right;
 }
 
-.itemcolumn {
+.itemcolumn{
   text-align: left;
 }
 
@@ -150,4 +154,32 @@ background-image: -webkit-gradient(
   color-stop(0.3, rgb(99,99,99)),
   color-stop(1, rgb(250,247,250))
 );
+}
+
+/*footer adjust*/
+
+#copyright
+{
+  padding-left: 20px;
+  font-size: 18px;
+}
+#mainproduct div:hover{
+    box-shadow: 10px 10px 10px white;
+    }
+
+/*Matt's Button*/
+
+section button {
+  border: none;
+  background-color: #444;
+  color: white;
+  padding: 5px 10px;
+  margin: 0px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 700;
+  box-shadow: inset 1px 1px 5px #C0C0C0;
+  border-radius: 15px;
+
 }
