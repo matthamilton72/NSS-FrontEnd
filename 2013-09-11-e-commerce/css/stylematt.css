@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700);
 
+/*Matt's Stuff*/
+
 header {
   height: 115px;
   margin-right: 15px;
@@ -10,7 +12,16 @@ body {
 font-family: 'News Cycle', sans-serif;
 background-color: #222;
 color: white;
+font-size: 20px;
+font-weight: 400;
 }
+
+p {
+  padding-right: 20px;
+  line-height: 25px;
+  padding: 20px;
+}
+/*End Matt's First Chunk*/
 
 a {
   text-decoration: none;
@@ -20,6 +31,9 @@ a {
 a p{
   color: white;
   text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
 }
 
 address {
@@ -34,10 +48,12 @@ header a img {
 header > #logo{
   float: left;
 }
+
+/*Changed Background Color*/
 #topnav {
   display: table;
   width: 100%;
-  background-color: green;
+  padding: 10px;
   margin-bottom: 15px;
   background-color: rgba(224, 13, 28, 1);
 }
@@ -58,6 +74,7 @@ header > #logo{
   border-left: 1px solid black;
 }
 
+/*Changed Header Font Size Padding and Font Family*/
 h1 {
 font-family: 'Rock Salt', cursive;
 font-size: 50px;
@@ -65,6 +82,7 @@ padding: 20px;
 font-weight: 700;
 }
 
+/*Changed Font Family*/
 address {
   font-family: 'Port Lligat Sans', sans-serif;
   font-size: 15px;
@@ -72,21 +90,22 @@ address {
   font-weight: 600;
 }
 
-
+/*Selected H2 font weight and size*/
 h2{
   font-size: 30px;
   font-weight: 600;
+  padding-left: 20px;
 }
 
 #mainproduct {
-  padding: 20px;
   clear: both;
   text-align: center;
 }
 
 #mainproduct div
 {
-  padding: 20px;
+  padding-right: 40px;
+  padding-left: 0;
   float: left;
   max-width: 400px;
 }
@@ -103,14 +122,32 @@ footer a
 
 table {
   margin: 20px;
+  width: auto;
 }
 
+/*Table for shopping cart page*/
 td {
   padding: 10px;
-  border: 1px white solid;
-  max-width: 400px;
+  border: 3px black outset;
+  text-align: right;
+}
+
+.itemcolumn {
+  text-align: left;
 }
 
 table tr:first-child {
-  background-color: gray;
+background-image: linear-gradient(bottom, rgb(99,99,99) 30%, rgb(250,247,250) 100%);
+background-image: -o-linear-gradient(bottom, rgb(99,99,99) 30%, rgb(250,247,250) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(99,99,99) 30%, rgb(250,247,250) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(99,99,99) 30%, rgb(250,247,250) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(99,99,99) 30%, rgb(250,247,250) 100%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.3, rgb(99,99,99)),
+  color-stop(1, rgb(250,247,250))
+);
 }
